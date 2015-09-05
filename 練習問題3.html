@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>表組みの例</title>
+<style>
+  /* ここにstyle要素を使用して,CSSの定義を埋め込む */
+  table{float: right;} /* ここを追加  */
+table {
+ border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+ <table>
+  <caption>表の例</caption>
+  <thead>
+   <tr>
+    <th>ID</th>
+    <th>氏名</th>
+    <th>ポイント数</th>
+    <th>加入日</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>1</td>
+    <td>立命 太郎</td>
+    <td>900</td>
+    <td>2012-04-01</td>
+   </tr>
+   <tr>
+    <td>2</td>
+    <td>衣笠 花子</td>
+    <td>700</td>
+    <td>2013-04-01</td>
+   </tr>
+   <tr>
+    <td>3</td>
+    <td>別府 三郎</td>
+    <td>800</td>
+    <td>2014-04-01</td>
+   </tr>
+  </tbody>
+ </table>
+ 
+ <p>
+表を見やすくなるように，適宜スタイルを定義せよ．
+また，表を右端に寄せ，この段落を表の横に回り込むように配置せよ．
+（以下は段落の量を増やすためのダミーの文章である）
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+rutrum leo quis arcu mollis, et interdum orci feugiat. Duis sagittis
+nisi ut tempus commodo. Nulla vitae porta lacus, vel pellentesque
+tortor. In consequat felis neque, nec sagittis ligula sodales ac. In
+ac accumsan libero. In sollicitudin, mauris at bibendum ornare, sapien
+elit pharetra tortor, sit amet congue quam turpis vitae lorem. Etiam
+id molestie arcu, consequat sagittis velit. Sed laoreet magna nec sem
+tempus ullamcorper. Sed nibh massa, tempor id ultricies sed, suscipit
+non dui. Vestibulum sollicitudin rhoncus est, sit amet fringilla arcu
+fermentum vel. Fusce et ante nisl. Donec sed leo vel augue adipiscing
+condimentum. Morbi condimentum velit eu lectus consectetur dapibus vel
+a erat. Vestibulum vel diam eu lectus tincidunt luctus eget vel
+ante. Sed iaculis velit sed lectus mattis, quis lobortis enim
+ultrices.
+ </p>
+ <p>
+   floatを使用し、rightを指定することでtableを右に寄せた。これにより文章が表に回り込んだ。
+   座学だけでは，この講義の内容を理解するのは難しいと思う。このように演習を行うことで知識を身につけることができると思う。
+ </p>
+</body>
+</html>
